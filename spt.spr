@@ -1,0 +1,278 @@
+[Application Options]
+
+ApplicationIcon=D:\SIBYL\BIN\default.ico
+
+[Application Options Linux]
+
+ApplicationIcon=
+
+[Application Options OS/2]
+
+ApplicationIcon=D:\SIBYL\BIN\default.ico
+
+[Application Options Win32]
+
+ApplicationIcon=
+
+[Browser Files]
+
+File0=SYSTEM
+File1=OS2DEF
+File2=BSETIB
+File3=BSEEXCPT
+File4=BSEDOS
+File5=PMWIN
+File6=PMBITMAP
+File7=PMGPI
+File8=PMDEV
+File9=PMSTDDLG
+File10=PMHELP
+File11=MESSAGES
+File12=DOS
+File13=BSEERR
+File14=PMSHL
+File15=LANGUAGE
+File16=SYSUTILS
+File17=CLASSES
+File18=FORMS
+File19=GRAPHICS
+File20=BUTTONS
+File21=STDCTRLS
+File22=EXTCTRLS
+File23=COMCTRLS
+File24=FILECTRL
+File25=PMSPL
+File26=PRINTERS
+File27=DIALOGS
+File28=MAINFORM
+
+[Compiler Options]
+
+CodeGeneration=Assertions
+Syntax=
+Optimize=OptimizeCommonSub,OptimizePeephole
+RuntimeCheck=
+CondDefine=
+
+[Compiler Warnings]
+
+Warnings=W2,W3,W4,W5,W6,W7
+MaxWarnings=200
+MaxErrors=10
+
+[Component Library Linux]
+
+CompLibName=
+
+[Component Library OS/2]
+
+CompLibName=D:\SIBYL\BIN\CompLib.dll
+
+[Component Library Win32]
+
+CompLibName=
+
+[Debugger Options]
+
+DebugInfo=LocalSymbols
+EvalHints=True
+Dbg_Options=0
+RTL_Exceptions=1073741823
+SPCC_Exceptions=4194303
+
+[Directories]
+
+LastDir=W:\SIBYL\SPT
+OutDir=
+LibDir=D:\Temp\Sibyl
+LibSrcDir=W:\Sibyl\RTL;W:\SIBYL\SPCC
+IncSrcDir=
+CompInstallDir=D:\SIBYL\Compnt
+
+[Directories Linux]
+
+LastDir=
+OutDir=D:\Sibyl\Output
+LibDir=D:\Sibyl\Lib
+LibSrcDir=D:\Sibyl\Source\RTL;D:\Sibyl\Source\SPCC
+IncSrcDir=
+CompInstallDir=D:\Sibyl\Compnt
+
+[Directories OS/2]
+
+LastDir=E:\WORK\SPT
+OutDir=.
+LibDir=D:\SIBYL\Lib
+LibSrcDir=D:\SIBYL\Source\RTL;D:\SIBYL\Source\SPCC
+IncSrcDir=
+CompInstallDir=D:\SIBYL\Compnt
+
+[Directories Win32]
+
+LastDir=
+OutDir=D:\SIBYL\Output
+LibDir=D:\SIBYL\Lib
+LibSrcDir=D:\SIBYL\Source\RTL;D:\SIBYL\Source\SPCC
+IncSrcDir=
+CompInstallDir=D:\SIBYL\Compnt
+
+[General]
+
+Version=Sibyl Project Ver2.02
+ProjectName=W:\Sibyl\SPT\SPT.spr
+ProjectType=Visual
+CompLibName=D:\SIBYL\BIN\CompLib.dll
+Win32CompLibName=D:\SIBYL\BIN\CompLib.dll
+RunParameter=
+InActiveLanguages=
+CurrentLanguage=
+Platform=OS/2
+
+[Last Open Files]
+
+File0=.\MainForm.pas
+File0.Left=-4
+File0.Bottom=-4
+File0.Width=615
+File0.Height=475
+File0.Column=19
+File0.Line=28
+File1=.\SPT.pas
+File1.Left=-4
+File1.Bottom=-4
+File1.Width=615
+File1.Height=475
+File1.Column=1
+File1.Line=1
+
+[Linker Options]
+
+DataSegment=Normal
+LinkerTarget=GUI
+ExePacking=ExePack2
+RunVDM=True
+CurrentLanguage=Default
+InstallLanguages=
+
+[Memory Sizes]
+
+Heap=8192
+Stack=256
+
+[Project Files]
+
+Primary=.\SPT.pas
+MainFile0=.\SPT.pas
+MainFile0.Ext=.EXE
+MainFile0.Checksum=7936
+MainFile0.Expanded=False
+MainFile0.File0=.\MainForm.pas
+MainFile0.File1=[Dependencies]
+MainFile0.Dependency0=..\.\RTL\SYSTEM.PAS
+MainFile0.Dependency1=..\.\RTL\OS2DEF.PAS
+MainFile0.Dependency2=..\.\RTL\BSETIB.PAS
+MainFile0.Dependency3=..\.\RTL\BSEEXCPT.PAS
+MainFile0.Dependency4=..\.\RTL\BSEDOS.PAS
+MainFile0.Dependency5=..\.\RTL\PMWIN.PAS
+MainFile0.Dependency6=..\.\RTL\PMBITMAP.PAS
+MainFile0.Dependency7=..\.\RTL\PMGPI.PAS
+MainFile0.Dependency8=..\.\RTL\PMDEV.PAS
+MainFile0.Dependency9=..\.\RTL\PMSTDDLG.PAS
+MainFile0.Dependency10=..\.\RTL\PMHELP.PAS
+MainFile0.Dependency11=..\.\SPCC\MESSAGES.PAS
+MainFile0.Dependency12=..\.\RTL\DOS.PAS
+MainFile0.Dependency13=..\.\RTL\BSEERR.PAS
+MainFile0.Dependency14=..\.\RTL\PMSHL.PAS
+MainFile0.Dependency15=..\.\SPCC\LANGUAGE.PAS
+MainFile0.Dependency16=..\.\SPCC\SYSUTILS.PAS
+MainFile0.Dependency17=..\.\SPCC\CLASSES.PAS
+MainFile0.Dependency18=..\.\SPCC\FORMS.PAS
+MainFile0.Dependency19=..\.\SPCC\GRAPHICS.PAS
+MainFile0.Dependency20=..\.\SPCC\BUTTONS.PAS
+MainFile0.Dependency21=..\.\SPCC\STDCTRLS.PAS
+MainFile0.Dependency22=..\.\SPCC\EXTCTRLS.PAS
+MainFile0.Dependency23=..\.\SPCC\COMCTRLS.PAS
+MainFile0.Dependency24=..\.\SPCC\FILECTRL.PAS
+MainFile0.Dependency25=..\.\RTL\PMSPL.PAS
+MainFile0.Dependency26=..\.\SPCC\PRINTERS.PAS
+MainFile0.Dependency27=..\.\SPCC\DIALOGS.PAS
+MainFile0.Dependency28=.\MAINFORM.PAS
+MainFile0.Dependency29=.\SPT.scu
+
+[Repository]
+
+Page0=Projects
+Page0.Installed=True
+Page0.Object0=SpeedSoft.AppExpert
+Page0.Object0.NewProject=False
+Page0.Object0.NewForm=False
+Page0.Object0.MainForm=False
+Page0.Object0.InPage=True
+Page0.Object0.Title=AppExpert
+Page0.Object0.Description=(C) 1997 SpeedSoft.
+Page0.Object0.Author=SpeedSoft
+Page1=[Object Repository]
+Page1.Installed=True
+Page1.Object0=SpeedSoft.AppExpert
+Page1.Object0.NewProject=False
+Page1.Object0.NewForm=False
+Page1.Object0.MainForm=False
+Page1.Object0.InPage=True
+Page1.Object0.Title=AppExpert
+Page1.Object0.Description=(C) 1997 SpeedSoft.
+Page1.Object0.Author=SpeedSoft
+
+[SCU]
+
+SCUName=.\SPT.scu
+MainForm=MainForm
+
+[Win32 Application Options]
+
+ApplicationIcon=
+
+[Win32 Compiler Options]
+
+CodeGeneration=Assertions
+Syntax=
+Optimize=OptimizeCommonSub,OptimizePeephole
+RuntimeCheck=
+CondDefine=
+
+[Win32 Compiler Warnings]
+
+Warnings=W2,W3,W4,W5,W6,W7
+MaxWarnings=200
+MaxErrors=10
+
+[Win32 Debugger Options]
+
+DebugInfo=
+EvalHints=True
+Dbg_Options=0
+RTL_Exceptions=1073741823
+SPCC_Exceptions=4194303
+
+[Win32 Directories]
+
+LastDir=
+OutDir=D:\SIBYL\Output
+LibDir=D:\SIBYL\Lib
+LibSrcDir=D:\SIBYL\Source\RTL;D:\SIBYL\Source\SPCC
+IncSrcDir=
+CompInstallDir=D:\SIBYL\Compnt
+
+[Win32 Linker Options]
+
+DataSegment=Normal
+LinkerTarget=GUI
+ExePacking=ExePack2
+RunVDM=True
+CurrentLanguage=Default
+InstallLanguages=
+
+[Win32 Memory Sizes]
+
+Heap=8192
+Stack=256
+
